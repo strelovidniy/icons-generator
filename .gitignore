@@ -361,4 +361,4 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
-/iconsgenerator.client/.vscode/launch.json
+.vscode
