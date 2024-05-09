@@ -1,0 +1,61 @@
+﻿<label for="images"
+       class="drop-container"
+       id="dropcontainer">
+    <span class="drop-title">
+        Drop files here
+    </span>
+    or
+    <input type="file"
+           id="images"
+           accept="image/*"
+           required
+           (change)="onFileChange($event)">
+</label>
+
+<div class="sizes">
+    @for (sizeItem of sizes; track $index) {
+        <div class="size-label"
+             (click)="removeSize(sizeItem)">
+            {{ sizeItem }}
+            <div class="remove-icon">
+                x
+            </div>
+        </div>
+    }
+</div>
+
+<div class="add-size-container">
+    <div class="input-group">
+        <label class="input-group__label"
+               for="myInput">
+            Size
+        </label>
+        <input type="number"
+               [value]="size"
+               (change)="onSizeChange($event)"
+               id="myInput"
+               class="input-group__input"/>
+    </div>
+    <button (click)="addSize()"
+            [disabled]="isAddSizeButtonDisabled()">
+        <span>
+            Add size
+        </span>
+        <div class="liquid"></div>
+    </button>
+</div>
+
+<button (click)="generateIcons()"
+        [disabled]="isGenerateButtonDisabled()"
+        class="margin-auto">
+    <span>
+        Generate Icons
+    </span>
+    <div class="liquid"></div>
+</button>
+
+@if (isLoading) {
+    <div class="loading">
+        <div class="loading-spinner"></div>
+    </div>
+}

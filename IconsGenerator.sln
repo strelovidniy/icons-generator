@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34814.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IconsGenerator.Server", "IconsGenerator.Server\IconsGenerator.Server.csproj", "{59EE543B-5F53-4FB5-817C-C9BC171E5CC3}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "iconsgenerator.client", "iconsgenerator.client\iconsgenerator.client.esproj", "{7C0AEDEA-F272-4E22-B98E-79568F03BD61}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{59EE543B-5F53-4FB5-817C-C9BC171E5CC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59EE543B-5F53-4FB5-817C-C9BC171E5CC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59EE543B-5F53-4FB5-817C-C9BC171E5CC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59EE543B-5F53-4FB5-817C-C9BC171E5CC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C0AEDEA-F272-4E22-B98E-79568F03BD61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C0AEDEA-F272-4E22-B98E-79568F03BD61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C0AEDEA-F272-4E22-B98E-79568F03BD61}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{7C0AEDEA-F272-4E22-B98E-79568F03BD61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C0AEDEA-F272-4E22-B98E-79568F03BD61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C0AEDEA-F272-4E22-B98E-79568F03BD61}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {84C2F7F4-9F16-41D3-8F49-9F7AA46BD0E9}
+	EndGlobalSection
+EndGlobal
