@@ -5,9 +5,10 @@ import environment from '../environments/environment';
 
 
 @Component({
-	selector: 'app-root',
-	templateUrl: './app.component.html',
-	styleUrl: './app.component.css'
+    selector: 'app-root',
+    templateUrl: './app.component.html',
+    styleUrl: './app.component.css',
+    standalone: false
 })
 export default class AppComponent implements OnInit {
 	public sizes = [72, 96, 128, 144, 152, 192, 384, 512];
